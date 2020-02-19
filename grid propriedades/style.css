@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+
+.container {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  /*
+  Ajustar grid no espaço
+
+  align-content: center;
+  justify-content: center;
+  */
+}
+
+.container > div {
+  background: orange;
+  width: 50%;
+  height: 50%;
+}
